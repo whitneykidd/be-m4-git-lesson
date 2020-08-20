@@ -1,7 +1,7 @@
 class Admin::UsersController < Admin::BaseController
 
   def show
-    @admin = User.find(params[:id])
+    # @admin = User.find(params[:id])
   end
 
   def edit
